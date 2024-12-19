@@ -14,4 +14,5 @@ You can run a command with the `--help` flag for documentation. For example, `ay
 
 | subcommand | description |
 |---|---|
-| `code` | Select from a list of workspaces, then open code editor |
+| `code` | Show a list of workspaces & open a code editor |
+| `config` | Get and set options (e.g., projects base directory, code editor command, etc.) |
