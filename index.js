@@ -3,8 +3,8 @@ import { defineCommand, runMain } from "citty";
 
 const main = defineCommand({
   meta: {
-    name: "Ayo CLI",
-    description: "Various utility commands",
+    name: "ayo",
+    description: "Ayo CLI: Various utility commands",
   },
   subCommands: {
     c: () => import("./commands/code.mjs").then((r) => r.default),
