@@ -8,6 +8,7 @@ const main = defineCommand({
   },
   subCommands: {
     code: () => import("./commands/code.mjs").then((r) => r.default),
+    config: () => import("./commands/config.mjs").then((r) => r.default),
   },
 });
 
