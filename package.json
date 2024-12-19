@@ -10,7 +10,8 @@
   "scripts": {
     "ayo": "node ./index.js",
     "test": "vitest",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "lint": "eslint . --config eslint.config.js"
   },
   "author": "Ayo Ayco",
   "license": "MIT",
