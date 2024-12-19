@@ -6,7 +6,7 @@ import { defineCommand } from "citty";
 export default defineCommand({
   meta: {
     name: "code",
-    description: "Open code editor for a list of existing workspaces",
+    description: "Show a list of workspaces & open a code editor",
   },
   run() {
     consola.box("Code...");
