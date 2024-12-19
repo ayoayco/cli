@@ -1,17 +1,12 @@
-# ayo-cli
+# Ayo CLI
 
 Various utility commands
 
 # Usage
 
-Install globally
+Install globally with `npm i -g @ayco/cli@latest`.
 
-```bash
-# npm
-npm i -g @ayco/cli@latest
-```
-
-Then, you can run `ayo` and you will see a list of commands available.
+Then, you can run `ayo` to see a list of commands available.
 
 You can run a command with the `--help` flag for documentation. For example, `ayo code --help` will show the docs for the `code` command.
 
