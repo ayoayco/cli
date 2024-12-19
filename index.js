@@ -7,7 +7,6 @@ const main = defineCommand({
     description: "Ayo CLI: Various utility commands",
   },
   subCommands: {
-    c: () => import("./commands/code.mjs").then((r) => r.default),
     code: () => import("./commands/code.mjs").then((r) => r.default),
   },
 });
